@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
   <head>
     <title>Clara Barros</title>
     <meta charset="utf-8">
@@ -38,11 +38,11 @@
 	      <div class="collapse navbar-collapse" id="ftco-nav">
 	        <ul class="navbar-nav ml-auto">
 	          <li class="nav-item active"><a href="index.html" class="nav-link">Home</a></li>
-	          <li class="nav-item"><a href="classes.html" class="nav-link">Sobre</a></li>
-	          <li class="nav-item"><a href="schedule.html" class="nav-link">Serviços</a></li>
-	          <li class="nav-item"><a href="about.html" class="nav-link">Galeria</a></li>
+	          <li class="nav-item"><a href="sobre.html" class="nav-link">Sobre</a></li>
+	          <li class="nav-item"><a href="servicos.html" class="nav-link">Serviços</a></li>
+	          <li class="nav-item"><a href="galeria.html" class="nav-link">Galeria</a></li>
 	          <li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li>
-	          <li class="nav-item"><a href="contact.html" class="nav-link">Contato</a></li>
+	          <li class="nav-item"><a href="contato.html" class="nav-link">Contato</a></li>
 	        </ul>
 	      </div>
 		  </div>
@@ -55,7 +55,7 @@
         <div class="row no-gutters slider-text js-fullheight align-items-center justify-content-center">
           <div class="col-md-9 ftco-animate text-center">
             <h1 class="mb-3 bread">Contato</h1>
-            <p class="breadcrumbs"><span class="mr-2"><a href="index.html">Home</a></span> <span>Contact</span></p>
+            <p class="breadcrumbs"><span class="mr-2"><a href="index.html">Home</a></span> <span>Contato</span></p>
           </div>
         </div>
       </div>
@@ -68,45 +68,45 @@
 					<div class="col-md-4 contact-info ftco-animate bg-light p-4">
 						<div class="row">
 							<div class="col-md-12 mb-4">
-	              <h2 class="h4">Contact Information</h2>
+	              <h2 class="h4">Informações para Contato</h2>
 	            </div>
 	            <div class="col-md-12 mb-3">
-	              <p><span>Address:</span> 198 West 21th Street, Suite 721 New York NY 10016</p>
+	              <p><span>Endereço:</span> NeverLand, Only God Knows</p>
 	            </div>
 	            <div class="col-md-12 mb-3">
-	              <p><span>Phone:</span> <a href="tel://1234567920">+ 1235 2355 98</a></p>
+	              <p><span>Telefone:</span> <a href="tel://1234567920">(84) 0000-0000</a></p>
 	            </div>
 	            <div class="col-md-12 mb-3">
-	              <p><span>Email:</span> <a href="mailto:info@yoursite.com">info@yoursite.com</a></p>
+	              <p><span>E-mail:</span> <a href="mailto:info@yoursite.com">info@yoursite.com</a></p>
 	            </div>
-	            <div class="col-md-12 mb-3">
+	            <!--<div class="col-md-12 mb-3">
 	              <p><span>Website:</span> <a href="#">yoursite.com</a></p>
-	            </div>
+	            </div>-->
 						</div>
 					</div>
 					<div class="col-md-1"></div>
           <div class="col-md-6 ftco-animate">
-            <form action="#" class="contact-form">
+            <form method="post" action="toemail.php" class="contact-form">
             	<div class="row">
             		<div class="col-md-6">
 	                <div class="form-group">
-	                  <input type="text" class="form-control" placeholder="Your Name">
+	                  <input type="text" name="name" class="form-control" placeholder="Nome" required>
 	                </div>
                 </div>
                 <div class="col-md-6">
 	                <div class="form-group">
-	                  <input type="text" class="form-control" placeholder="Your Email">
+	                  <input type="text" name="email" class="form-control" placeholder="E-mail" required>
 	                </div>
 	                </div>
               </div>
               <div class="form-group">
-                <input type="text" class="form-control" placeholder="Subject">
+                <input type="text" name="subject" class="form-control" placeholder="Assunto" required>
               </div>
               <div class="form-group">
-                <textarea name="" id="" cols="30" rows="7" class="form-control" placeholder="Message"></textarea>
+                <textarea name="message" id="" cols="30" rows="7" class="form-control" placeholder="Mensagem" required></textarea>
               </div>
               <div class="form-group">
-                <input type="submit" value="Send Message" class="btn btn-primary py-3 px-5">
+            <input type="submit" name="submit" value="Enviar" class="btn btn-primary py-3 px-5">
               </div>
             </form>
           </div>
@@ -123,12 +123,12 @@
         <div class="row mb-5">
         	<div class="col-lg-3 col-md-6 mb-5 mb-md-5 ftco-animate">
             <div class="ftco-footer-widget mb-4">
-              <h1 class="logo">Yogalax</h1>
+              <h1 class="logo">Clara Barros</h1>
             </div>
           </div>
           <div class="col-lg col-md-6 mb-5 mb-md-5 ftco-animate">
             <div class="ftco-footer-widget mb-4">
-              <h2 class="location">203 Fake St. Mountain View, San Francisco, California, USA</h2>
+              <h2 class="location">NeverLand, Only God Knows</h2>
             </div>
           </div>
           <div class="col-lg-3 col-md-6 mb-5 mb-md-5">
