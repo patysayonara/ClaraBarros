@@ -5,6 +5,7 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300&display=swap');
 :root {
     --blue: #007bff;
     --indigo: #6610f2;
@@ -44,7 +45,7 @@
 }
 
 html {
-    font-family: sans-serif;
+    font-family: 'Montserrat', sans-serif;
     line-height: 1.15;
     -webkit-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
@@ -72,7 +73,7 @@ section {
 
 body {
     margin: 0;
-    font-family: "Work Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-family: 'Montserrat', sans-serif;
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.5;
@@ -389,9 +390,10 @@ h6,
 .h3,
 .h4,
 .h5,
-.h6 {
+.h6,
+a {
     margin-bottom: 0.5rem;
-    font-family: inherit;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 500;
     line-height: 1.2;
     color: inherit;
@@ -4417,7 +4419,7 @@ input[type="button"].btn-block {
     padding-top: 0.3125rem;
     padding-bottom: 0.3125rem;
     margin-right: 1rem;
-    font-size: 1.25rem;
+    font-size: 1rem;
     line-height: inherit;
     white-space: nowrap;
 }
@@ -9779,6 +9781,15 @@ h5,
     font-weight: 400;
 }
 
+.description {
+    margin-right: -200px;
+}
+
+.description h2 {
+    color: #929292;
+    font-size: 1.5rem;
+}
+
 .text-primary {
     color: #83ccc7 !important;
 }
@@ -9797,8 +9808,9 @@ h5,
 
 @media (max-width: 991.98px) {
     .ftco-navbar-light {
-        background: #000 !important;
+        background: #fff !important;
         position: relative;
+        color: rgba(0, 0, 0, 0.5);
         top: 0;
         padding: 10px 15px;
     }
@@ -9809,8 +9821,9 @@ h5,
 }
 
 .ftco-navbar-light .navbar-brand span {
-    color: #83ccc7;
-    font-size: 28px;
+    color: #000;
+    border-bottom: rgb(115, 180, 207) solid 1px;
+    font-size: 22px;
 }
 
 .ftco-navbar-light .navbar-brand:hover,
@@ -9851,7 +9864,7 @@ h5,
         padding-right: 0;
         padding-top: .9rem;
         padding-bottom: .9rem;
-        color: rgba(255, 255, 255, 0.7);
+        color: #000;
     }
     .ftco-navbar-light .navbar-nav>.nav-item>.nav-link:hover {
         color: #fff;
@@ -9934,7 +9947,7 @@ h5,
 
 .ftco-navbar-light .navbar-toggler {
     border: none;
-    color: rgba(255, 255, 255, 0.5) !important;
+    color: rgba(0, 0, 0, 0.5) !important;
     cursor: pointer;
     padding-right: 0;
     text-transform: uppercase;
@@ -10151,9 +10164,17 @@ h5,
 }
 
 .hero-wrap .slider-text h1 {
-    font-size: 60px;
+    font-size: 50px;
     color: #000;
     font-weight: 200;
+    padding: 10px;
+    background: #ffffffa4;
+    border-left: rgb(115, 180, 207) 5px solid;
+    border-right: rgb(115, 180, 207) 5px solid;
+}
+
+#inicio {
+    border-right: 0px;
 }
 
 .hero-wrap .slider-text h1 span {
@@ -10161,6 +10182,7 @@ h5,
 }
 
 .hero-wrap .slider-text h2 {
+    font-size: 22px;
     font-weight: 200;
 }
 
@@ -10178,7 +10200,7 @@ h5,
 
 @media (max-width: 991.98px) {
     .hero-wrap .slider-text .bread {
-        font-size: 60px;
+        font-size: 28px;
     }
 }
 
@@ -11002,19 +11024,113 @@ textarea.form-control {
     position: relative;
 }
 
+@media (min-width: 1400px) {
+    #inicio,
+    #inicio_sub {
+        margin-left: -100px;
+    }
+}
+
+@media (min-width: 1600px) {
+    #inicio,
+    #inicio_sub {
+        margin-left: -200px;
+    }
+}
+
 @media (max-width: 767.98px) {
     .heading-section h2 {
         font-size: 28px;
     }
 }
 
-.hero-wrap,
+@media (max-width: 1024px) {
+    .hero-wrap .slider-text h1 {
+        margin-left: 0;
+        box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.616);
+    }
+}
+
+@media (max-width: 1024px) {
+    .hero-wrap .slider-text h2 {
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 1024px) {
+    .hero-wrap .slider-text h1 {
+        margin-top: 300px;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .hero-wrap .slider-text h1 {
+        font-size: 30px;
+        background: rgba(255, 255, 255, 0.733);
+        padding: 10px;
+        margin-left: 0;
+        box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.616);
+        border-left: rgb(115, 180, 207) 5px solid;
+        border-right: rgb(115, 180, 207) 5px solid;
+    }
+}
+
+@media (max-width: 767.98px) {
+    #inicio {
+        margin-top: 200px;
+        border-right: 0px;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .hero-wrap .slider-text h2 {
+        display: none;
+    }
+}
+
+@media (max-width: 1400px) {
+    .hero-wrap .slider-text h2 {
+        display: none;
+    }
+}
+
 .img,
 .blog-img,
 .user-img {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
+}
+
+.hero-wrap {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    vertical-align: center;
+}
+
+@media (max-width: 1024px) {
+    .hero-wrap {
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 75% center;
+        vertical-align: bottom;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .hero-wrap {
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 80% center;
+        vertical-align: bottom;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .hero-wrap .col {
+        vertical-align: bottom;
+    }
 }
 
 @media (max-width: 767.98px) {
