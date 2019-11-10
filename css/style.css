@@ -9755,13 +9755,13 @@ a {
     -webkit-transition: .3s all ease;
     -o-transition: .3s all ease;
     transition: .3s all ease;
-    color: #83ccc7;
+    color: rgb(115, 180, 207);
 }
 
 a:hover,
 a:active,
 a:focus {
-    color: #83ccc7;
+    color: rgb(115, 180, 207);
     outline: none !important;
     text-decoration: none !important;
 }
@@ -9791,7 +9791,7 @@ h5,
 }
 
 .text-primary {
-    color: #83ccc7 !important;
+    color: rgb(115, 180, 207) !important;
 }
 
 .ftco-navbar-light {
@@ -9932,17 +9932,17 @@ h5,
 @media (max-width: 991.98px) {
     .ftco-navbar-light .navbar-nav>.nav-item.cta>a {
         color: #fff;
-        background: #83ccc7;
+        background: rgb(115, 180, 207);
     }
 }
 
 .ftco-navbar-light .navbar-nav>.nav-item.active>a {
-    color: #83ccc7;
+    color: rgb(115, 180, 207);
 }
 
 .ftco-navbar-light .navbar-nav>.nav-item.active>a:after {
     opacity: 1;
-    background: #83ccc7;
+    background: rgb(115, 180, 207);
 }
 
 .ftco-navbar-light .navbar-toggler {
@@ -9971,12 +9971,12 @@ h5,
 }
 
 .ftco-navbar-light.scrolled .nav-item.active>a {
-    color: #83ccc7 !important;
+    color: rgb(115, 180, 207) !important;
 }
 
 .ftco-navbar-light.scrolled .nav-item.cta>a {
     color: #fff !important;
-    background: #83ccc7;
+    background: rgb(115, 180, 207);
     border: none !important;
 }
 
@@ -9986,7 +9986,7 @@ h5,
 }
 
 .ftco-navbar-light.scrolled .nav-item.cta.cta-colored span {
-    border-color: #83ccc7;
+    border-color: rgb(115, 180, 207);
 }
 
 @media (max-width: 991.98px) {
@@ -10024,7 +10024,7 @@ h5,
 }
 
 .ftco-navbar-light.scrolled .nav-link.active {
-    color: #83ccc7 !important;
+    color: rgb(115, 180, 207) !important;
 }
 
 .ftco-navbar-light.scrolled.awake {
@@ -10076,7 +10076,7 @@ h5,
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
     margin-top: -10px;
-    color: #83ccc7 !important;
+    color: rgb(115, 180, 207) !important;
     -moz-transition: all 0.7s ease;
     -o-transition: all 0.7s ease;
     -webkit-transition: all 0.7s ease;
@@ -10259,7 +10259,7 @@ h5,
 }
 
 .bg-primary {
-    background: #83ccc7;
+    background: rgb(115, 180, 207);
 }
 
 .btn {
@@ -10280,26 +10280,26 @@ h5,
 }
 
 .btn.btn-primary {
-    background: #83ccc7;
-    border: 1px solid #83ccc7 !important;
+    background: rgb(115, 180, 207);
+    border: 1px solid rgb(115, 180, 207) !important;
     color: #fff;
 }
 
 .btn.btn-primary:hover {
-    border: 1px solid #83ccc7;
+    border: 1px solid rgb(115, 180, 207);
     background: transparent !important;
-    color: #83ccc7;
+    color: rgb(115, 180, 207);
 }
 
 .btn.btn-primary.btn-outline-primary {
-    border: 1px solid #83ccc7;
+    border: 1px solid rgb(115, 180, 207);
     background: transparent;
-    color: #83ccc7;
+    color: rgb(115, 180, 207);
 }
 
 .btn.btn-primary.btn-outline-primary:hover {
     border: 1px solid transparent;
-    background: #83ccc7;
+    background: rgb(115, 180, 207);
     color: #fff;
 }
 
@@ -10325,8 +10325,8 @@ h5,
 .btn.btn-white.btn-outline-white:hover,
 .btn.btn-white.btn-outline-white:focus,
 .btn.btn-white.btn-outline-white:active {
-    background: #83ccc7;
-    border-color: #83ccc7;
+    background: rgb(115, 180, 207);
+    border-color: rgb(115, 180, 207);
     color: #000;
 }
 
@@ -10364,19 +10364,19 @@ h5,
 }
 
 .do-list li span {
-    color: #83ccc7;
+    color: rgb(115, 180, 207);
     font-size: 22px;
 }
 
 .ftco-gradient {
-    background: #83ccc7;
-    background: -moz-linear-gradient(45deg, #83ccc7 0%, rgba(255, 255, 255, 0) 100%);
-    background: -webkit-gradient(left bottom, right top, color-stop(0%, #83ccc7), color-stop(100%, rgba(255, 255, 255, 0)));
-    background: -webkit-linear-gradient(45deg, #83ccc7 0%, rgba(255, 255, 255, 0) 100%);
-    background: -o-linear-gradient(45deg, #83ccc7 0%, rgba(255, 255, 255, 0) 100%);
-    background: -ms-linear-gradient(45deg, #83ccc7 0%, rgba(255, 255, 255, 0) 100%);
-    background: linear-gradient(45deg, #83ccc7 0%, rgba(255, 255, 255, 0) 100%);
-    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#83ccc7', endColorstr='#ffffff', GradientType=1);
+    background: rgb(115, 180, 207);
+    background: -moz-linear-gradient(45deg, rgb(115, 180, 207) 0%, rgba(255, 255, 255, 0) 100%);
+    background: -webkit-gradient(left bottom, right top, color-stop(0%, rgb(115, 180, 207)), color-stop(100%, rgba(255, 255, 255, 0)));
+    background: -webkit-linear-gradient(45deg, rgb(115, 180, 207) 0%, rgba(255, 255, 255, 0) 100%);
+    background: -o-linear-gradient(45deg, rgb(115, 180, 207) 0%, rgba(255, 255, 255, 0) 100%);
+    background: -ms-linear-gradient(45deg, rgb(115, 180, 207) 0%, rgba(255, 255, 255, 0) 100%);
+    background: linear-gradient(45deg, rgb(115, 180, 207) 0%, rgba(255, 255, 255, 0) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='rgb(115, 180, 207)', endColorstr='#ffffff', GradientType=1);
 }
 
 .ftco-gradient .heading-section .subheading {
@@ -10409,7 +10409,7 @@ h5,
     -webkit-transition: all 0.6s ease;
     -ms-transition: all 0.6s ease;
     transition: all 0.6s ease;
-    background: #83ccc7;
+    background: rgb(115, 180, 207);
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
@@ -10434,7 +10434,7 @@ h5,
 .services .icon {
     width: 100px;
     height: 100px;
-    background: #83ccc7;
+    background: rgb(115, 180, 207);
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
@@ -10468,7 +10468,7 @@ h5,
     left: 0;
     right: 0;
     bottom: 0;
-    background: #83ccc7;
+    background: rgb(115, 180, 207);
     z-index: 0;
     content: '';
     opacity: 0;
@@ -10513,14 +10513,14 @@ h5,
 }
 
 .btn-custom {
-    background: #83ccc7;
-    background: -moz-linear-gradient(45deg, #83ccc7 0%, rgba(255, 255, 255, 0) 100%);
-    background: -webkit-gradient(left bottom, right top, color-stop(0%, #83ccc7), color-stop(100%, rgba(255, 255, 255, 0)));
-    background: -webkit-linear-gradient(45deg, #83ccc7 0%, rgba(255, 255, 255, 0) 100%);
-    background: -o-linear-gradient(45deg, #83ccc7 0%, rgba(255, 255, 255, 0) 100%);
-    background: -ms-linear-gradient(45deg, #83ccc7 0%, rgba(255, 255, 255, 0) 100%);
-    background: linear-gradient(45deg, #83ccc7 0%, rgba(255, 255, 255, 0) 100%);
-    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#83ccc7', endColorstr='#ffffff', GradientType=1);
+    background: rgb(115, 180, 207);
+    background: -moz-linear-gradient(45deg, rgb(115, 180, 207) 0%, rgba(255, 255, 255, 0) 100%);
+    background: -webkit-gradient(left bottom, right top, color-stop(0%, rgb(115, 180, 207)), color-stop(100%, rgba(255, 255, 255, 0)));
+    background: -webkit-linear-gradient(45deg, rgb(115, 180, 207) 0%, rgba(255, 255, 255, 0) 100%);
+    background: -o-linear-gradient(45deg, rgb(115, 180, 207) 0%, rgba(255, 255, 255, 0) 100%);
+    background: -ms-linear-gradient(45deg, rgb(115, 180, 207) 0%, rgba(255, 255, 255, 0) 100%);
+    background: linear-gradient(45deg, rgb(115, 180, 207) 0%, rgba(255, 255, 255, 0) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='rgb(115, 180, 207)', endColorstr='#ffffff', GradientType=1);
     color: #fff;
     display: block;
     font-size: 18px;
@@ -10588,7 +10588,7 @@ h5,
     display: block;
     width: 40px;
     height: 40px;
-    background: ##83ccc7;
+    background: #rgb(115, 180, 207);
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
@@ -10615,7 +10615,7 @@ h5,
 }
 
 .table .thead-primary {
-    background: #83ccc7;
+    background: rgb(115, 180, 207);
 }
 
 .table .thead-primary tr th {
@@ -10656,7 +10656,7 @@ h5,
 }
 
 .table tbody tr td.color {
-    background: #83ccc7;
+    background: rgb(115, 180, 207);
 }
 
 .table tbody tr td.color-1 {
@@ -10770,15 +10770,15 @@ h5,
 }
 
 .testimony-section .owl-dots .owl-dot.active {
-    background: #83ccc7;
-    background: #83ccc7;
-    background: -moz-linear-gradient(45deg, #83ccc7 0%, rgba(255, 255, 255, 0) 100%);
-    background: -webkit-gradient(left bottom, right top, color-stop(0%, #83ccc7), color-stop(100%, rgba(255, 255, 255, 0)));
-    background: -webkit-linear-gradient(45deg, #83ccc7 0%, rgba(255, 255, 255, 0) 100%);
-    background: -o-linear-gradient(45deg, #83ccc7 0%, rgba(255, 255, 255, 0) 100%);
-    background: -ms-linear-gradient(45deg, #83ccc7 0%, rgba(255, 255, 255, 0) 100%);
-    background: linear-gradient(45deg, #83ccc7 0%, rgba(255, 255, 255, 0) 100%);
-    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#83ccc7', endColorstr='#ffffff', GradientType=1);
+    background: rgb(115, 180, 207);
+    background: rgb(115, 180, 207);
+    background: -moz-linear-gradient(45deg, rgb(115, 180, 207) 0%, rgba(255, 255, 255, 0) 100%);
+    background: -webkit-gradient(left bottom, right top, color-stop(0%, rgb(115, 180, 207)), color-stop(100%, rgba(255, 255, 255, 0)));
+    background: -webkit-linear-gradient(45deg, rgb(115, 180, 207) 0%, rgba(255, 255, 255, 0) 100%);
+    background: -o-linear-gradient(45deg, rgb(115, 180, 207) 0%, rgba(255, 255, 255, 0) 100%);
+    background: -ms-linear-gradient(45deg, rgb(115, 180, 207) 0%, rgba(255, 255, 255, 0) 100%);
+    background: linear-gradient(45deg, rgb(115, 180, 207) 0%, rgba(255, 255, 255, 0) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='rgb(115, 180, 207)', endColorstr='#ffffff', GradientType=1);
 }
 
 .testimony-wrap {
@@ -10820,7 +10820,7 @@ h5,
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
-    background: #83ccc7;
+    background: rgb(115, 180, 207);
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
@@ -10844,7 +10844,7 @@ h5,
 }
 
 .ftco-social a span {
-    color: #83ccc7;
+    color: rgb(115, 180, 207);
 }
 
 .form-control {
@@ -10863,7 +10863,7 @@ h5,
 
 .form-control:focus,
 .form-control:active {
-    border-color: #83ccc7;
+    border-color: rgb(115, 180, 207);
 }
 
 textarea.form-control {
@@ -10876,7 +10876,7 @@ textarea.form-control {
 }
 
 .bg-primary {
-    background: #83ccc7 !important;
+    background: rgb(115, 180, 207) !important;
 }
 
 .ftco-section {
@@ -10897,7 +10897,7 @@ textarea.form-control {
 .ftco-footer {
     font-size: 16px;
     padding: 4em 0;
-    background: #83ccc7;
+    background: rgb(115, 180, 207);
 }
 
 .ftco-footer h1.logo {
@@ -11168,14 +11168,14 @@ textarea.form-control {
     left: 0;
     right: 0;
     bottom: 0;
-    background: #83ccc7;
-    background: -moz-linear-gradient(45deg, #83ccc7 0%, rgba(255, 255, 255, 0) 100%);
-    background: -webkit-gradient(left bottom, right top, color-stop(0%, #83ccc7), color-stop(100%, rgba(255, 255, 255, 0)));
-    background: -webkit-linear-gradient(45deg, #83ccc7 0%, rgba(255, 255, 255, 0) 100%);
-    background: -o-linear-gradient(45deg, #83ccc7 0%, rgba(255, 255, 255, 0) 100%);
-    background: -ms-linear-gradient(45deg, #83ccc7 0%, rgba(255, 255, 255, 0) 100%);
-    background: linear-gradient(45deg, #83ccc7 0%, rgba(255, 255, 255, 0) 100%);
-    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#83ccc7', endColorstr='#ffffff', GradientType=1);
+    background: rgb(115, 180, 207);
+    background: -moz-linear-gradient(45deg, rgb(115, 180, 207) 0%, rgba(255, 255, 255, 0) 100%);
+    background: -webkit-gradient(left bottom, right top, color-stop(0%, rgb(115, 180, 207)), color-stop(100%, rgba(255, 255, 255, 0)));
+    background: -webkit-linear-gradient(45deg, rgb(115, 180, 207) 0%, rgba(255, 255, 255, 0) 100%);
+    background: -o-linear-gradient(45deg, rgb(115, 180, 207) 0%, rgba(255, 255, 255, 0) 100%);
+    background: -ms-linear-gradient(45deg, rgb(115, 180, 207) 0%, rgba(255, 255, 255, 0) 100%);
+    background: linear-gradient(45deg, rgb(115, 180, 207) 0%, rgba(255, 255, 255, 0) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='rgb(115, 180, 207)', endColorstr='#ffffff', GradientType=1);
     opacity: .8;
 }
 
@@ -11205,7 +11205,7 @@ textarea.form-control {
     right: 0;
     bottom: 0;
     content: '';
-    bordeR: 1px solid #83ccc7;
+    bordeR: 1px solid rgb(115, 180, 207);
     z-index: -1;
     -moz-transition: all 0.3s ease;
     -o-transition: all 0.3s ease;
@@ -11222,7 +11222,7 @@ textarea.form-control {
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
-    color: #83ccc7;
+    color: rgb(115, 180, 207);
 }
 
 .ftco-counter .text strong.number {
@@ -11247,7 +11247,7 @@ textarea.form-control {
     -webkit-transform: rotate(135deg);
     -ms-transform: rotate(135deg);
     transform: rotate(135deg);
-    background: #83ccc7;
+    background: rgb(115, 180, 207);
 }
 
 @media (max-width: 991.98px) {
@@ -11314,7 +11314,7 @@ textarea.form-control {
 .blog-entry .text .heading a:hover,
 .blog-entry .text .heading a:focus,
 .blog-entry .text .heading a:active {
-    color: #83ccc7;
+    color: rgb(115, 180, 207);
 }
 
 .blog-entry .meta>div {
@@ -11344,7 +11344,7 @@ textarea.form-control {
 .blog-entry span.day {
     font-size: 58px;
     font-weight: 300;
-    color: #83ccc7;
+    color: rgb(115, 180, 207);
     line-height: 1;
 }
 
@@ -11423,13 +11423,13 @@ textarea.form-control {
 .block-7 .price sup {
     font-size: 24px;
     top: -1em;
-    color: #83ccc7;
+    color: rgb(115, 180, 207);
 }
 
 .block-7 .price .number {
     font-size: 60px;
     font-weight: 500;
-    color: #83ccc7;
+    color: rgb(115, 180, 207);
 }
 
 .block-7 .excerpt {
@@ -11470,7 +11470,7 @@ textarea.form-control {
 
 .block-7 .btn-primary:hover,
 .block-7 .btn-primary:focus {
-    background: #83ccc7 !important;
+    background: rgb(115, 180, 207) !important;
     color: #fff;
 }
 
@@ -11506,7 +11506,7 @@ textarea.form-control {
 
 .block-27 ul li a,
 .block-27 ul li span {
-    color: #83ccc7;
+    color: rgb(115, 180, 207);
     text-align: center;
     display: inline-block;
     width: 40px;
@@ -11518,7 +11518,7 @@ textarea.form-control {
 
 .block-27 ul li.active a,
 .block-27 ul li.active span {
-    background: #83ccc7;
+    background: rgb(115, 180, 207);
     color: #fff;
     border: 1px solid transparent;
 }
@@ -11567,7 +11567,7 @@ textarea.form-control {
 
 .contact-form .form-control:focus,
 .contact-form .form-control:active {
-    border-color: #83ccc7 !important;
+    border-color: rgb(115, 180, 207) !important;
 }
 
 .contact-form textarea.form-control {
@@ -11602,7 +11602,7 @@ textarea.form-control {
 .block-21 .text .heading a:hover,
 .block-21 .text .heading a:active,
 .block-21 .text .heading a:focus {
-    color: #83ccc7;
+    color: rgb(115, 180, 207);
 }
 
 .block-21 .text .meta>div {
@@ -11654,7 +11654,7 @@ textarea.form-control {
     margin: 0;
     border-radius: 50% !important;
     font-size: 16px;
-    background: #83ccc7;
+    background: rgb(115, 180, 207);
     color: #fff;
 }
 
