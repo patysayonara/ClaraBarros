@@ -7,9 +7,9 @@ if($_POST["submit"]) {
     $senderEmail=$_POST["email"];
     $message=$_POST["message"];
 
-    $mailBody="Name: $sender\nEmail: $senderEmail\n\n$message";
+    $mailBody="Nome: $sender\nE-mail: $senderEmail\nMensagem: $message";
 
-    mail($recipient, $subject, $mailBody, "From: $sender <$senderEmail>");
+    mail($recipient, "Website: $subject", $mailBody, "From: $sender <$senderEmail>");
 }
 
 ?>
