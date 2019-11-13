@@ -10464,9 +10464,6 @@ h5,
 
 .package-program:after {
     position: absolute;
-    margin-bottom: 0.5rem;
-    margin-left: 0.25rem;
-    margin-right: 0.25rem;
     top: 0;
     left: 0;
     right: 0;
@@ -10485,8 +10482,6 @@ h5,
 .package-program .img {
     display: block;
     height: 400px;
-    margin-left: 0.25rem;
-    margin-right: 0.25rem;
 }
 
 .package-program .text {
@@ -11251,6 +11246,10 @@ textarea.form-control {
 
 #vantagens {
     background-color: #f3f3f3;
+}
+
+#lista_servicos {
+    background-color: #f7f7f7;
 }
 
 .ftco-counter .text:hover .icon span,
