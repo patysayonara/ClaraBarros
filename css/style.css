@@ -10464,6 +10464,9 @@ h5,
 
 .package-program:after {
     position: absolute;
+    margin-bottom: 0.5rem;
+    margin-left: 0.25rem;
+    margin-right: 0.25rem;
     top: 0;
     left: 0;
     right: 0;
@@ -10480,6 +10483,8 @@ h5,
 }
 
 .package-program .img {
+    margin-left: 0.25rem;
+    margin-right: 0.25rem;
     display: block;
     height: 400px;
 }
