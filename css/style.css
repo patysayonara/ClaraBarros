@@ -12084,7 +12084,7 @@ img#nav-img {
     display: none;
     position: absolute;
     background-color: #d6aeae;
-    min-width: 129px;
+    min-width: 250px;
     z-index: 1;
 }
 
@@ -12095,8 +12095,14 @@ img#nav-img {
     display: block;
 }
 
-/* Change color of dropdown links on hover */
 .dropdown-content a:hover {color: #ffffff;}
 
-/* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {display: block;}
+
+a.servicos-link {
+    font-size: 13px;
+}
+
+h3.motivos {
+    text-align: center;
+}
