@@ -292,7 +292,7 @@
 
 	  if (!this.isDeleting && this.txt === fullTxt) {
 	  delta = this.period;
-	  this.isDeleting = true;
+	  //this.isDeleting = true;
 	  } else if (this.isDeleting && this.txt === '') {
 	  this.isDeleting = false;
 	  this.loopNum++;
@@ -320,7 +320,9 @@
 	  document.body.appendChild(css);
 	};
 
-
+	$('.dropdown').on('click',function(e){
+		$('.dropdown-content').toggle();
+	})
 
 
 })(jQuery);

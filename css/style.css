@@ -12185,3 +12185,21 @@ button#menu-servicos {
 .align-flaticons-center {
     margin: 0 auto;
 }
+
+.ftco-footer h2.sub-logo {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+p#instagram-name {
+    font-size: 18px;
+    color: white;
+    float: left; 
+    padding-top: 6px;
+    padding-left: 10px;
+}
+
+#footer-credits {
+    margin-top: 50px;
+}
