@@ -1,12 +1,13 @@
 	/*
   	Flaticon icon font: Flaticon
-  	Creation date: 31/12/2018 05:16
+  	Creation date: 20/11/2019 03:15
   	*/
 
 @font-face {
   font-family: "Flaticon";
   src: url("./Flaticon.eot");
   src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff2") format("woff2"),
        url("./Flaticon.woff") format("woff"),
        url("./Flaticon.ttf") format("truetype"),
        url("./Flaticon.svg#Flaticon") format("svg");
@@ -29,7 +30,12 @@ font-style: normal;
 margin-left: 20px;
 }
 
-.flaticon-like:before { content: "\f100"; }
+.flaticon-meditation:before { content: "\f100"; }
 .flaticon-lotus:before { content: "\f101"; }
-.flaticon-lotus-1:before { content: "\f102"; }
-.flaticon-meditation:before { content: "\f103"; }
+.flaticon-fashion:before { content: "\f102"; }
+.flaticon-makeup-1:before { content: "\f103"; }
+.flaticon-heart:before { content: "\f104"; }
+.flaticon-clock:before { content: "\f105"; }
+.flaticon-shopping-bag:before { content: "\f106"; }
+.flaticon-makeup:before { content: "\f107"; }
+.flaticon-motivation:before { content: "\f108"; }

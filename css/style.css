@@ -9797,7 +9797,7 @@ h5,
     background: #fff !important;
     -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
-    position: absolute;
+    position: relative;
     top: 0px;
     left: 0;
     right: 0;
@@ -9843,18 +9843,18 @@ h5,
 }
 
 .ftco-navbar-light .navbar-nav>.nav-item>.nav-link {
-    font-size: 18px;
+    font-size: 20px;
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
     padding-left: 20px;
     padding-right: 20px;
-    font-weight: 300;
+    font-weight: 400;
     color: #000;
     opacity: 1 !important;
 }
 
 .ftco-navbar-light .navbar-nav>.nav-item>.nav-link:hover {
-    color: #000;
+    color: #d6aeae;
 }
 
 @media (max-width: 991.98px) {
@@ -10175,7 +10175,62 @@ h5,
 
 #inicio {
     border-right: 0px;
-    margin-top: 500px;
+    margin-top: 350px;
+    padding: 10px;
+}
+
+#sobreFoto {
+    background: #d6aeae91;
+}
+
+#sobreFoto div {
+    padding: 15px;
+}
+
+#sobreFoto h3 {
+    margin-top: 30px;
+    font-size: 20px;
+    text-align: justify;
+    position: relative;
+}
+
+#sobrePagina h3 {
+    margin-top: 30px;
+    font-size: 22px;
+    text-align: justify;
+    position: relative;
+}
+
+.linkSobre {
+    background: #d6aeae;
+    color: #fff;
+    font-size: 20px;
+    padding: 15px;
+    margin-top: 30px;
+    position: relative;
+}
+
+.FundoRosa {
+    background: #d6aeae91;
+    margin-top: 20px;
+}
+
+.BordaRosa {
+    border-top: #d6aeae91 3px solid;
+    border-bottom: #d6aeae91 3px solid;
+}
+
+#sobrePagina div {
+    padding: 15px;
+}
+
+#linkSobre a:hover {
+    background: #c59494;
+    color: #fff;
+}
+
+#linkSobre {
+    margin-top: 20px;
 }
 
 .hero-wrap .slider-text h1 span {
@@ -10193,7 +10248,6 @@ h5,
 }
 
 .hero-wrap .slider-text .bread {
-    font-size: 70px;
     color: #000;
     line-height: 1.2;
     font-weight: 200;
@@ -12075,15 +12129,15 @@ textarea.form-control {
 }
 
 img#nav-img {
-    width: 50px; 
-    height: 50px; 
+    width: 50px;
+    height: 50px;
     margin-right: 10px;
 }
 
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #d6aeae;
+    background-color: #eacdd0;
     min-width: 250px;
     z-index: 1;
 }
@@ -12095,12 +12149,18 @@ img#nav-img {
     display: block;
 }
 
-.dropdown-content a:hover {color: #ffffff;}
+.dropdown-content a:hover {
+    color: #ffffff;
+    background: #d6aeae;
+}
 
-.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
 
 a.servicos-link {
-    font-size: 13px;
+    font-size: 16px;
+    margin: 0;
 }
 
 h3.motivos {
@@ -12112,12 +12172,12 @@ h3.motivos {
 }
 
 button#menu-servicos {
-    background-color: #d6aeae; 
-    border: #d6aeae; 
-    color:white; 
-    float: right; 
-    width: 200px; 
-    height: 50px; 
+    background-color: #d6aeae;
+    border: #d6aeae;
+    color: white;
+    float: right;
+    width: 200px;
+    height: 50px;
     font-size: 16px;
     margin-right: 20px;
 }
