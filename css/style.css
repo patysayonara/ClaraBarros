@@ -9866,7 +9866,7 @@ h5,
         color: #000;
     }
     .ftco-navbar-light .navbar-nav>.nav-item>.nav-link:hover {
-        color: #fff;
+        color: #d6aeae;
     }
 }
 
@@ -12129,7 +12129,6 @@ textarea.form-control {
 }
 
 img#nav-img {
-    width: 50px;
     height: 50px;
     margin-right: 10px;
 }
@@ -12152,10 +12151,6 @@ img#nav-img {
 .dropdown-content a:hover {
     color: #ffffff;
     background: #d6aeae;
-}
-
-.dropdown:hover .dropdown-content {
-    display: block;
 }
 
 a.servicos-link {
@@ -12195,7 +12190,7 @@ button#menu-servicos {
 p#instagram-name {
     font-size: 18px;
     color: white;
-    float: left; 
+    float: left;
     padding-top: 6px;
     padding-left: 10px;
 }
