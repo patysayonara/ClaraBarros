@@ -1,7 +1,7 @@
 <?php
 
 if($_POST["submit"]) {
-    $recipient="patysayonara28@gmail.com";
+    $recipient="moda@clarabarros.com";
     $subject=$_POST["subject"];
     $sender=$_POST["name"];
     $senderEmail=$_POST["email"];
