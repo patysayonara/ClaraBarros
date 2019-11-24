@@ -6719,10 +6719,6 @@ button.bg-danger:focus {
     background-color: #bd2130 !important;
 }
 
-.bg-light {
-    background-color: #f8f9fa !important;
-}
-
 a.bg-light:hover,
 a.bg-light:focus,
 button.bg-light:hover,
@@ -9736,7 +9732,7 @@ body {
     font-size: 16px;
     line-height: 1.8;
     font-weight: 400;
-    color: #b3b3b3;
+    color: #8f8f8f;
 }
 
 body.menu-show {
@@ -9843,9 +9839,9 @@ h5,
 }
 
 .ftco-navbar-light .navbar-nav>.nav-item>.nav-link {
-    font-size: 20px;
-    padding-top: 1.5rem;
-    padding-bottom: 1.5rem;
+    font-size: 18px;
+    padding-top: 1.0rem;
+    padding-bottom: 1.0rem;
     padding-left: 20px;
     padding-right: 20px;
     font-weight: 400;
@@ -10189,14 +10185,14 @@ h5,
 
 #sobreFoto h3 {
     margin-top: 30px;
-    font-size: 20px;
+    font-size: 18px;
     text-align: justify;
     position: relative;
 }
 
 #sobrePagina h3 {
     margin-top: 30px;
-    font-size: 22px;
+    font-size: 18px;
     text-align: justify;
     position: relative;
 }
@@ -10298,7 +10294,7 @@ h5,
 }
 
 .bg-light {
-    background: #fafafa !important;
+    background: #f5f4f4 !important;
 }
 
 .bg-white {
@@ -10506,7 +10502,7 @@ h5,
 }
 
 .services .text h3 {
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 500;
 }
 
@@ -11079,7 +11075,7 @@ textarea.form-control {
 
 .heading-section h2 {
     z-index: -1;
-    font-size: 60px;
+    font-size: 40px;
     font-weight: 300;
     position: relative;
 }
@@ -11302,6 +11298,7 @@ textarea.form-control {
     font-weight: normal;
     font-size: 30px;
     color: rgba(255, 255, 255);
+    text-shadow: 0.1em 0.1em 0.4em black;
 }
 
 #vantagens {
