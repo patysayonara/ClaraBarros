@@ -10238,9 +10238,9 @@ h5,
     font-weight: 200;
 }
 
-.hero-wrap .slider-text .typewrite>.wrap {
+.hero-wrap .slider-text .main-title>.wrap {
     position: relative;
-    border-right: 1px solid rgba(0, 0, 0, 0.1);
+    /*border-right: 1px solid rgba(0, 0, 0, 0.1);*/
 }
 
 .hero-wrap .slider-text .bread {
