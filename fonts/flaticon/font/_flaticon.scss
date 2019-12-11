@@ -1,12 +1,13 @@
     /*
     Flaticon icon font: Flaticon
-    Creation date: 31/12/2018 05:16
+    Creation date: 20/11/2019 03:15
     */
 
     @font-face {
   font-family: "Flaticon";
   src: url("./Flaticon.eot");
   src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff2") format("woff2"),
        url("./Flaticon.woff") format("woff"),
        url("./Flaticon.ttf") format("truetype"),
        url("./Flaticon.svg#Flaticon") format("svg");
@@ -36,12 +37,22 @@
   font-smoothing: antialiased;
     }
 
-    .flaticon-like:before { content: "\f100"; }
+    .flaticon-meditation:before { content: "\f100"; }
 .flaticon-lotus:before { content: "\f101"; }
-.flaticon-lotus-1:before { content: "\f102"; }
-.flaticon-meditation:before { content: "\f103"; }
+.flaticon-fashion:before { content: "\f102"; }
+.flaticon-makeup-1:before { content: "\f103"; }
+.flaticon-heart:before { content: "\f104"; }
+.flaticon-clock:before { content: "\f105"; }
+.flaticon-shopping-bag:before { content: "\f106"; }
+.flaticon-makeup:before { content: "\f107"; }
+.flaticon-motivation:before { content: "\f108"; }
     
-    $font-Flaticon-like: "\f100";
+    $font-Flaticon-meditation: "\f100";
     $font-Flaticon-lotus: "\f101";
-    $font-Flaticon-lotus-1: "\f102";
-    $font-Flaticon-meditation: "\f103";
+    $font-Flaticon-fashion: "\f102";
+    $font-Flaticon-makeup-1: "\f103";
+    $font-Flaticon-heart: "\f104";
+    $font-Flaticon-clock: "\f105";
+    $font-Flaticon-shopping-bag: "\f106";
+    $font-Flaticon-makeup: "\f107";
+    $font-Flaticon-motivation: "\f108";
